@@ -1,0 +1,49 @@
+# scguo .slate April 10 2014
+# Started from the bottom v
+# https://github.com/jigish/dotfiles/blob/master/slate
+ 
+# Configs
+config defaultToCurrentScreen true
+config windowHintsShowIcons true
+config windowHintsIgnoreHiddenWindows false
+config windowHintsSpread true
+config windowHintsDuration 1
+config windowHintsFontColor 0;0;255;1.0
+config windowHintsBackgroundColor 0;0;0;0
+ 
+# Aliases
+alias combo alt
+alias mombo alt;shift
+ 
+# Layout
+# pass
+ 
+# Defaults
+# pass
+ 
+# Bind
+    # Relaunch/Refresh
+    bind esc:${combo} relaunch
+ 
+    # NOTE: some of these may *not* work if you have not removed the expose/spaces/mission control bindings
+    bind a:${mombo} corner bottom-left resize:screenSizeX/2;screenSizeY/2
+    bind d:${mombo} corner top-right resize:screenSizeX/2;screenSizeY/2
+    bind w:${mombo} corner top-left resize:screenSizeX/2;screenSizeY/2
+    bind s:${mombo} corner bottom-right resize:screenSizeX/2;screenSizeY/2
+
+    bind a:${combo} corner top-left resize:screenSizeX/2;screenSizeY
+    bind d:${combo} corner bottom-right resize:screenSizeX/2;screenSizeY
+    bind w:${combo} corner top-right resize:screenSizeX;screenSizeY/2
+    bind s:${combo} corner bottom-left resize:screenSizeX;screenSizeY/2
+
+    # Move to maximize a window on same screen
+    bind space:${combo} move screenOriginX;screenOriginY screenSizeX;screenSizeY
+ 
+    # Window Hints
+    bind `:${combo} hint ASDFZXCVQWER
+ 
+    # Grid
+    bind tab:${combo} grid padding:5 0:16,9
+ 
+# Source
+# pass
