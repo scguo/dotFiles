@@ -1,4 +1,4 @@
-# scguo .slate April 10 2014
+# scguo .slate Created April 10, 2014. Updated July 6, 2017
 # Started from the bottom v
 # https://github.com/jigish/dotfiles/blob/master/slate
  
@@ -40,10 +40,10 @@ alias mombo alt;shift
     bind space:${combo} move screenOriginX;screenOriginY screenSizeX;screenSizeY
  
     # Window Hints
-    bind `:${combo} hint ASDFZXCVQWER
+    # bind `:${combo} hint ASDFZXCVQWER
  
     # Grid
-    bind tab:${combo} grid padding:5 0:16,9
+    # bind tab:${combo} grid padding:5 0:16,9
  
 # Source
 # pass
