@@ -44,6 +44,10 @@ alias mombo alt;shift
  
     # Grid
     # bind tab:${combo} grid padding:5 0:16,9
- 
+
+# Throws
+   bind q:${combo} throw previous
+   bind e:${combo} throw next
+
 # Source
 # pass
