@@ -10,6 +10,10 @@
         cm = commit
         ec = config --global -e
         df = diff
+        sl = stash list
+        sp = stash pop
+        sw = stash show -p
+        sta = stash
         fu = update-index --assume-unchanged
         fud = ! git ls-files -v `git rev-parse --show-toplevel` | grep "^[a-z]"
         sorry = update-index --no-assume-unchanged
