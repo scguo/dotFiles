@@ -11,6 +11,7 @@
         ec = config --global -e
         df = diff
         sl = stash list
+        sd = stash drop
         sp = stash pop
         sw = stash show -p
         sta = stash
@@ -27,5 +28,6 @@
         ax = !sh -c 'echo "$1" >> .git/info/exclude' -
         axed = !cat .git/info/exclude
         sh = ! git log -1 | cowsay -f dragon-and-cow | lolcat
+        gg = commit -am "various perfomance improvments + bugfixes"
 [core]
 	editor = vim
