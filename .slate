@@ -1,15 +1,9 @@
-# scguo .slate Created April 10, 2014. Updated July 6, 2017
+# scguo .slate Created April 10, 2014. Updated August 17, 2017
 # Started from the bottom v
 # https://github.com/jigish/dotfiles/blob/master/slate
  
 # Configs
-config defaultToCurrentScreen true
-config windowHintsShowIcons true
-config windowHintsIgnoreHiddenWindows false
-config windowHintsSpread true
-config windowHintsDuration 1
-config windowHintsFontColor 0;0;255;1.0
-config windowHintsBackgroundColor 0;0;0;0
+config secondsBetweenRepeat 0.1
  
 # Aliases
 alias combo alt
@@ -39,14 +33,11 @@ alias mombo alt;shift
     # Move to maximize a window on same screen
     bind space:${combo} move screenOriginX;screenOriginY screenSizeX;screenSizeY
  
-    # Window Hints
-    # bind `:${combo} hint ASDFZXCVQWER
- 
     # Grid
     # bind tab:${combo} grid padding:5 0:16,9
 
 # Throws
-   bind q:${combo} throw previous
+   bind q:${combo} throw previous 
    bind e:${combo} throw next
 
 # Source
