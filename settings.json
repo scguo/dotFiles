@@ -1,7 +1,6 @@
 {
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.find.autoFindInSelection": true,
@@ -21,8 +20,6 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.enableBell": true,
     "devskim.enableBestPracticeRules": true,
-    "devskim.enableManualReviewRules": true,
-    "devskim.manualReviewerName": "steve.guo@quest.com",
     "python.autoComplete.showAdvancedMembers": true,
     "python.linting.pep8Enabled": true,
     "npm-intellisense.showBuildInLibs": true,
