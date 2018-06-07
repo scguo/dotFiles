@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2018-06-07 11:09:14" build="180528">
+		<key name=".Vanilla" modified="2018-06-07 15:08:49" build="180528">
 			<value name="Language" type="string" data="en"/>
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
@@ -104,7 +104,7 @@
 			<value name="Multi.SplitHeight" type="hex" data="04"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
 			<value name="FontName" type="string" data="Consolas"/>
-			<value name="FontName2" type="string" data="Lucida Console"/>
+			<value name="FontName2" type="string" data="Anonymice Powerline"/>
 			<value name="FontAutoSize" type="hex" data="00"/>
 			<value name="FontSize" type="ulong" data="16"/>
 			<value name="FontSizeX" type="ulong" data="0"/>
@@ -135,15 +135,15 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="480"/>
-			<value name="ConWnd Y" type="long" data="299"/>
-			<value name="LastMonitor" type="string" data="0,0,1920,1050"/>
-			<value name="ConWnd Width" type="dword" data="00000076"/>
-			<value name="ConWnd Height" type="dword" data="02000050"/>
+			<value name="ConWnd X" type="long" data="2404"/>
+			<value name="ConWnd Y" type="long" data="0"/>
+			<value name="LastMonitor" type="string" data="1920,0,3840,1050"/>
+			<value name="ConWnd Width" type="dword" data="00000075"/>
+			<value name="ConWnd Height" type="dword" data="02000054"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="QuakeStyle" type="hex" data="01"/>
-			<value name="Restore2ActiveMon" type="hex" data="00"/>
-			<value name="RestoreInactive" type="hex" data="00"/>
+			<value name="Restore2ActiveMon" type="hex" data="01"/>
+			<value name="RestoreInactive" type="hex" data="01"/>
 			<value name="QuakeAnimation" type="ulong" data="50"/>
 			<value name="HideCaption" type="hex" data="00"/>
 			<value name="HideChildCaption" type="hex" data="01"/>
@@ -195,7 +195,7 @@
 			<value name="HighlightMouseCol" type="hex" data="00"/>
 			<value name="FixFarBorders" type="hex" data="01"/>
 			<value name="Anti-aliasing2" type="hex" data="01"/>
-			<value name="FixFarBordersRanges" type="string" data="2013-25C4;"/>
+			<value name="FixFarBordersRanges" type="string" data="2013-25C4;E0A0;E0B0;"/>
 			<value name="ExtendUCharMap" type="hex" data="01"/>
 			<value name="EnhanceGraphics" type="hex" data="01"/>
 			<value name="EnhanceButtons" type="hex" data="00"/>
@@ -386,11 +386,11 @@
 			<value name="Update.DownloadPath" type="string" data="%TEMP%\ConEmu"/>
 			<value name="Update.LeavePackages" type="hex" data="00"/>
 			<value name="Update.PostUpdateCmd" type="string" data="echo Last successful update&gt;ConEmuUpdate.info &amp;&amp; date /t&gt;&gt;ConEmuUpdate.info &amp;&amp; time /t&gt;&gt;ConEmuUpdate.info"/>
-			<key name="HotKeys" modified="2018-06-07 11:09:14" build="180528">
+			<key name="HotKeys" modified="2018-06-07 15:07:34" build="180528">
 				<value name="KeyMacroVersion" type="hex" data="02"/>
 				<value name="Multi.Modifier" type="dword" data="00000011"/>
 				<value name="Multi.ArrowsModifier" type="dword" data="0000005b"/>
-				<value name="MinimizeRestore" type="dword" data="000011c0"/>
+				<value name="MinimizeRestore" type="dword" data="00005bc0"/>
 				<value name="MinimizeRestore2" type="dword" data="00000000"/>
 				<value name="GlobalRestore" type="dword" data="00000000"/>
 				<value name="CdExplorerPath" type="dword" data="00000000"/>
