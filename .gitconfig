@@ -29,5 +29,6 @@
         axed = !cat .git/info/exclude
         sh = ! git log -1 | cowsay -f dragon-and-cow | lolcat
         gg = commit -am "various perfomance improvments + bugfixes"
+		fe = fetch
 [core]
 	editor = vim

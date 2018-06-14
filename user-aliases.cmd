@@ -16,3 +16,5 @@ cmderr=cd /d "%CMDER_ROOT%"
 g=git $*
 la=ls --show-control-chars -F -A -l --color $*
 ..=cd ..
+npmlg=npm list -g --depth=0 2>/dev/null
+npmls=npm list --depth=0 2>/dev/null
