@@ -11,8 +11,6 @@ alias cls='printf "\033c"'
 #helpy stuf
 alias guodb='mysql -u root -h $DB_HOST $DB_SCHEMA'
 alias puip='curl checkip.amazonaws.com'
-alias rick='~/roll'
-alias roll=rick
 
 case "$TERM" in
 xterm*)
