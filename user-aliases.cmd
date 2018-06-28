@@ -12,9 +12,11 @@ clear=cls
 history=cat "%CMDER_ROOT%\config\.history"
 unalias=alias /d $1
 vi=vim $*
+vr=vim -R $*
 cmderr=cd /d "%CMDER_ROOT%"
 g=git $*
 la=ls --show-control-chars -F -A -l --color $*
 ..=cd ..
 npmlg=npm list -g --depth=0 2>/dev/null
 npmls=npm list --depth=0 2>/dev/null
+
