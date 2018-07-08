@@ -4,14 +4,11 @@
     "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.find.autoFindInSelection": true,
-    "editor.smoothScrolling": true,
     "scm.alwaysShowProviders": true,
     "workbench.commandPalette.preserveInput": true,
     "workbench.editor.closeOnFileDelete": false,
-    "workbench.tree.horizontalScrolling": true,
     "workbench.view.alwaysShowHeaderActions": true,
     "window.restoreWindows": "all",
-    "search.location": "panel",
     "search.quickOpen.includeSymbols": true,
     "debug.allowBreakpointsEverywhere": true,
     "debug.inlineValues": true,
@@ -25,6 +22,42 @@
     "npm-intellisense.showBuildInLibs": true,
     "npm-intellisense.scanDevDependencies": true,
     "npm.enableScriptExplorer": true,
-    "git.defaultCloneDirectory": "C:\\Users\\SGuo\\dev",
-    "git.promptToSaveFilesBeforeCommit": true
+    "git.promptToSaveFilesBeforeCommit": true,
+    "workbench.tree.horizontalScrolling": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "gitlens.hovers.currentLine.enabled": false,
+    "gitlens.hovers.annotations.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "gitlens.settings.mode": "advanced",
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "details": true,
+            "history": false,
+            "remote": true
+        },
+        "editorGroup": {
+            "blame": true,
+            "compare": true,
+            "history": false,
+            "remote": false
+        },
+        "editorTab": {
+            "compare": false,
+            "history": false,
+            "remote": true
+        },
+        "explorer": {
+            "compare": true,
+            "history": true,
+            "remote": true
+        }
+    },
+    "gitlens.historyExplorer.enabled": true,
+    "window.zoomLevel": 0,
+    "window.titleBarStyle":"custom"
 }
